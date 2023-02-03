@@ -1,0 +1,19 @@
+input[type=text] {
+    border: none;
+    border-bottom: 1px solid black;
+    border-width: thin;
+    padding-left: 5px;
+}
+
+.correct {
+    color: blue;
+}
+
+.incorrect {
+    color: red;
+
+}
+
+.stanza-element {
+    display: none;
+}
