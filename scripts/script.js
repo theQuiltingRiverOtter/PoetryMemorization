@@ -48,7 +48,7 @@ for (let i = poem.length; i >= 0; i--) {
 }
 
 function removePercentage(poem, wordLength) {
-    const other = document.querySelector("#other");
+    const other = document.querySelector("#stanza-container");
     const stanza = document.createElement("p");
     stanza.setAttribute("id", "para");
     console.log(poem);
